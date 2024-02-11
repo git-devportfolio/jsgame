@@ -139,7 +139,6 @@ let initEvents = function() {
                 let x = (parseFloat(element.getAttribute('data-x')) || 0) + event.dx
                 let y = (parseFloat(element.getAttribute('data-y')) || 0) + event.dy
                 let a = (parseFloat(element.getAttribute('data-a')) || 0) + ( event.da || 0)
-
                 
                 // translate the element
                 element.style.transform = 'translate(' + x + 'px, ' + y + 'px) rotate(' + a + 'deg)'
