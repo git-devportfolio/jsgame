@@ -41,22 +41,24 @@
     width: 128px;
     height: 255px;
     touch-action: none;
-    user-select: none;
+    /* user-select: none; */
     cursor: move;
     /* transition: transform 0.1s ease-out; */    
 }
 
 .btn-rotate {
     position: absolute;
+    background: transparent;
     top: 12px;
     left: 12px;
-    width: 16px;
-    height: 17px;
+    width: 50px;
+    height: 51px;
     background-image: url('../assets/btn-rotate.png');
-    cursor: pointer;
+    background-repeat: no-repeat;
+    cursor: pointer;    
 }
 
-.way-container {
+.tile-container {
     margin-top: 1rem;
     position: relative;      
     text-align: center;
