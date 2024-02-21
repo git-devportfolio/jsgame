@@ -37,12 +37,12 @@
 
 .draggable {
     position: relative;
-    display: inline-block;    
-    width: 128px;
-    height: 255px;
+    display: inline-block;
     touch-action: none;
-    /* user-select: none; */
+    user-select: none;
     cursor: move;
+    width: 127px;
+    height: 254px;
     /* transition: transform 0.1s ease-out; */    
 }
 
